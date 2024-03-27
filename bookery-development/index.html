@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bookery - One shop stop for your book needs and moods">
+        <meta name="keywords" content="Bookery, Book store, Book shop, Book online store, E-commerce book store, Book store">
+        <meta name="author" content="Bharati Subramanian">
+
+        <title>Bookery | Home</title>
+
+        <link rel="shortcut icon" href="/assets/favicons/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="/styles/styles.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-open flex-col flex-align-center flex-justify-center py-1 px-2">
+            <div class="navbar-desktop flex-row flex-align-center flex-justify-between">
+                <h3 class="logo brand-name">
+                    <a href="/" class="btn btn-link btn-primary">
+                        bookery
+                    </a>
+                </h3>
+                <form class="navbar-query input-group input-default input-inline">
+                    <label class="text-label flex-row flex-align-center px-0-75 py-0-25" for="navbar-search-query">
+                        <button type="submit"  class="btn btn-icon">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <input type="search" id="navbar-search-query" class="input-text p-0-25" placeholder="Search...">
+                    </label>
+                    <span class="text-message mt-0-25"></span>
+                </form>
+                <div class="hamburger">
+                    <button class="btn btn-primary btn-icon">
+                        <span class="icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+                </div>
+                
+                <div class="navbar-actions flex-row flex-justify-center flex-align-center">
+                    <div class="navbar-close-icon display-none">
+                        <button class="btn btn-navbar-close btn-primary btn-icon">
+                            <span class="icon">
+                                <i class="fas fa-times"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <a href="/pages/Authentication/logout/" class="btn btn-logout">
+                        Logout
+                    </a>
+                    <a href="/pages/Authentication/login/" class="btn btn-icon btn-login">
+                        <span class="icon icon-account">
+                            <i class="fas fa-user"></i>
+                        </span>
+                    </a>
+                    <a href="/pages/wishlist/" class="btn btn-icon badge-container btn-wishlist">
+                        <span class="badge-status badge-notification badge-primary">4</span> 
+                        <span class="icon icon-heart badge-icon">
+                            <i class="far fa-heart"></i>
+                        </span>
+                    </a>
+                    <a href="/pages/cart/" class="btn btn-icon badge-container btn-cart">
+                        <span class="badge-status badge-notification badge-primary">2</span> 
+                        <span class="icon icon-cart badge-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="navbar-mobile">
+                <form class="navbar-query input-group input-default input-inline">
+                    <label class="text-label flex-row flex-align-center px-0-75 py-0-25" for="navbar-search-query">
+                        <button type="submit"  class="btn btn-icon">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <input type="search" id="navbar-search-query" class="input-text p-0-25" placeholder="Search...">
+                    </label>
+                    <span class="text-message mt-0-25"></span>
+                </form>
+            </div>
+        </nav>   
+            
+        <header class="header hero flex-col flex-align-center flex-justify-center">
+            <img src="/assets/images/home-page/book_hero.jpg" alt="Hero Books Image" class="hero-img img-responsive" />
+            <div class="hero-content flex-col mx-2">
+                <h1 class="hero-head text-light">
+                    One shop stop for all your book needs and moods.
+                </h1>
+                <h5 class="hero-cta mt-1">
+                    <a href="/pages/products/" class="btn btn-light btn text-icon px-1 mt-1 py-0-5">Shop Now
+                        <span class="icon">
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                    </a>
+                </h5>
+            </div>
+        </header>
+
+        <main class="main-home my-2 mx-auto py-2 px-5">
+            <h3 class="hero-sub-head text-center mt-1 mb-2">
+                Now, get your books delivered within 24 hours to your doorstep!
+            </h3>
+            <section class="section-cateogies my-3 pt-2 pb-3 text-center" id="categories">
+                <h2 class="section__head">
+                    Popular Genres
+                </h2>
+                <p class="section__lead my-2">
+                    Check out the popular genres we have to offer!
+                </p>
+                <article class="category-container">
+                    <div class="category card card-wt-badge">
+                        <img src="/assets/images/home-page/non-fiction.jpg" alt="Non-Fiction Book Stacked" class="category-img img-responsive">
+                        <span class="badge badge-primary py-0-5 my-0-75 mx-0-25 px-0-75">
+                            Hot Sale
+                        </span>
+                        <div class="card-content">
+                            <h3 class="card-heading mb-1">Non Fiction</h3>
+                        </div>
+                    </div>
+                    <div class="category card">
+                        <img src="/assets/images/home-page/fiction.jpg" alt="Fiction Book" class="category-img img-responsive">
+                        <div class="card-content">
+                            <h3 class="card-heading mb-1">Fiction</h3>
+                        </div>
+                    </div>
+                    <div class="category card">
+                        <img src="/assets/images/home-page/classics.jpg" alt="Classic - Pride and Prejudice" class="category-img img-responsive">
+                        <div class="card-content">
+                            <h3 class="card-heading mb-1">Classics</h3>
+                        </div>
+                    </div>
+                    <div class="category card card-wt-badge">
+                        <img src="/assets/images/home-page/mystery.jpg" alt="Thriller Books" class="category-img img-responsive">
+                        <div class="card-content">
+                            <h3 class="card-heading mb-1">Mystery</h3>
+                        </div>
+                    </div>
+                    <div class="category card card-wt-badge">
+                        <img src="/assets/images/home-page/fantasy.jpg" alt="Fantasy - A court of mist and fury" class="category-img img-responsive">
+                        <div class="card-content">
+                            <h3 class="card-heading mb-1">Fantasy</h3>
+                        </div>
+                    </div>
+                    <div class="category card card-wt-badge">
+                        <img src="/assets/images/home-page/romance.jpg" alt="Romance Books" class="category-img img-responsive">
+                        <div class="card-content">
+                            <h3 class="card-heading mb-1">Romance</h3>
+                        </div>
+                    </div>
+                    
+                </article>
+                <a href="/pages/products/" class="btn text-center mx-auto mt-3 py-0-5 px-0-75">
+                    Discover more genres! 
+                    <span class="icon">
+                        <i class="fas fa-chevron-right"></i>
+                    </span>
+                </a>
+            </section>
+            <section class="section-top-picks my-3 pt-2 pb-3 text-center" id="top-picks">
+                <h2 class="section__head">
+                    Top Picks
+                </h2>
+                <p class="section__lead my-2">
+                    Find out what books are loved by all!
+                </p>
+                <article class="top-picks-container">
+                    <section class="product-catalog">
+                        <article class="products-container grid grid-autofit">
+                            <div class="product-card card card-vertical">
+                                <a href="/pages/products/">
+                                    <div class="card-header p-1">
+                                        <img src="/assets/images/products-page/Atomic-habits-james-clear.jpg" alt="Atomic habits by James Clear" />
+                                    </div>
+                                    <div class="card-body px-0-75">
+                                        <div class="card-description my-0-25">
+                                            <p class="card-title text-reg">Atomic Habits</p>
+                                            <p class="text-xs card-subtitle">James Clear</p>
+                                        </div>            
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product-card card card-vertical">
+                                <a href="/pages/products/">
+                                    <div class="card-header p-1">
+                                        <img src="/assets/images/products-page/Man-Called-Ove-Fredrick-Backman.jpg" alt="Man Called Ove by Fredrick Backman" />
+                                    </div>
+                                    <div class="card-body px-0-75">
+                                        <div class="card-description my-0-25">
+                                            <p class="card-title text-reg">A Man Called Ove</p>
+                                            <p class="text-xs card-subtitle">Fredrick Backman</p>
+                                        </div>            
+                                    </div>
+                                </a>        
+                            </div>
+                           
+                            <div class="product-card card card-vertical">
+                                <div class="card-header p-1">
+                                    <img src="/assets/images/products-page/Shadow-And-Bone-Leigh-Bardugo.jpg" alt="Shadow and Bone by Leigh Bardugo" />
+                                </div>
+                                <div class="card-body px-0-75">
+                                    <div class="card-description my-0-25">
+                                        <h6 class="text-reg card-title">Shadow and Bone</h6>
+                                        <p class="text-xs card-subtitle">Leigh Bardugo</p>
+                                    </div>          
+                                </div>
+                            </div>
+                            
+                        </article>
+                    </section>
+                    
+                </article>
+                <a href="/pages/products/" class="btn text-center mx-auto mt-3 py-0-5 px-0-75">
+                    Discover more books! 
+                    <span class="icon">
+                        <i class="fas fa-chevron-right"></i>
+                    </span>
+                </a>
+            </section>
+        </main>
+        <footer class="footer home-footer" id="footer">
+            <div class="primary-footer grid grid-5 py-2-5 px-5">
+                <span class="icon">
+                    <i class="fab fa-cc-visa"></i>
+                </span>
+                <span class="icon">
+                    <i class="fab fa-cc-mastercard"></i>
+                </span>
+                <span class="icon">
+                    <i class="fab fa-paypal"></i>
+                </span>
+                <span class="icon">
+                    <i class="fab fa-amazon-pay"></i>
+                </span>
+                <span class="icon">
+                    <i class="fab fa-google-pay"></i>
+                </span>
+            </div>
+            <div class="secondary-footer px-5 py-2 grid grid-4">
+                <ul class="footer-item list list-stacked list-style-none grid-item">
+                    <p class="list-head text-sm p-0-5 mb-1">
+                        Customer Center
+                    </p>
+                    <li class="list-item flex-row px-0-5">
+                        <span class="icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </span> 
+                        Support Helpline
+                    </li>
+                    <li class="list-item text-sm px-0-5">
+                        <a href="mailto:bookery@elixir.com" class="btn btn-link btn-light">
+                            <span class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            Email Us
+                        </a>
+                    </li>
+                    <li class="list-item text-sm px-0-5">
+                        Weekdays 09:30 - 18:00
+                    </li>
+                    <li class="list-item text-sm px-0-5">
+                        Weekends 11:00 - 16:00
+                    </li>
+                    <li class="list-item text-sm px-0-5">
+                        Holdays: Sat, Sun, National Holidays
+                    </li>  
+                </ul>
+                <ul class="footer-item list list-stacked list-style-none grid-item">
+                    <p class="list-head text-sm p-0-5 mb-1">
+                        Service Hub and Store
+                    </p>
+                    <li class="list-item flex-row px-0-5">
+                        <address>
+                            Royal Industrial Estate, <br />
+                            Opposite Robin & Co., <br />
+                            Lokhandwala, Andheri(W), <br />
+                            Mumbai, India - 4000053
+                        </address>
+                    </li>
+                </ul>
+                <ul class="footer-item list list-stacked list-style-none grid-item">
+                    <p class="list-head text-sm p-0-5 mb-1">
+                        Quick Links
+                    </p>
+                    <li class="list-item px-0-5">
+                        <a href="/" class="btn btn-link btn-light text-sm pb-0-25 brand logo">bookery</a>
+                    </li>
+                    <li class="list-item px-0-5 text-xs">
+                        <ul class="list list-inline list-style-none">
+                            <li class="list-item">
+                                <a href="#" class="btn-link btn-light">About Us</a> 
+                            </li>
+                            <li class="list-item gray-color mx-0-25">.</li>
+                            <li class="list-item">
+                                <a href="#" class="btn-link btn-light">Products</a>
+                            </li>
+                            <li class="list-item gray-color mx-0-25">.</li>
+                            <li class="list-item">
+                                <a href="#" class="btn-link btn-light">My orders</a>
+                            </li>
+                            <li class="list-item gray-color mx-0-25">.</li>
+                            <li class="list-item">
+                                <a href="#" class="btn-link btn-light">Cart</a>
+                            </li>
+
+                        </ul>
+                        
+                    </li>
+                </ul>
+                <ul class="footer-item list list-stacked list-style-none grid-item">
+                    <p class="list-head text-sm p-0-5 mb-1">
+                        Social Media
+                    </p>
+                    <li class="list-item">
+                        <div class="social-links flex-row">
+                            <a href="#" class="btn btn-link btn-light">
+                                <span class="icon">
+                                    <i class="fab fa-twitter"></i>
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-link btn-light">
+                                <span class="icon">
+                                    <i class="fab fa-instagram"></i>
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-link btn-light">
+                                <span class="icon">
+                                    <i class="fab fa-facebook"></i>
+                                </span>
+                            </a>
+                            <a href="#" class="btn btn-link btn-light">
+                                <span class="icon">
+                                    <i class="fab fa-youtube"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="mt-1 pt-2 gray-color copyright-section span-cols text-sm text-center">
+                    &copy; elixir designs 2022
+                </div>
+            </div>           
+        </footer>
+        <script src="/scripts/hamburger.js"></script>
+    </body>
+</html>
