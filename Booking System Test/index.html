@@ -50,6 +50,7 @@
 
             try {
                 const response = await fetch('https://script.google.com/macros/s/AKfycbyTNFJdNmaNBh5qSL0y2s2y6Th519MOSWw6mLcQCPOV52eTrTa8HEBEr4dcJMYocys7/exec', {
+                    mode: 'no-cors',
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
