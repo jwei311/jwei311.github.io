@@ -32,6 +32,7 @@
     </style>
 </head>
 <body>
+    <script> fetch('https://your-proxy-server-url/proxy', { method: 'GET', headers: { 'Content-Type': 'application/json' } }) .then(response => response.json()) .then(data => { console.log(data); }) .catch(error => { console.error('Error:', error); }); </script>
     <h1>Save Name to Google Sheets</h1>
     <form id="nameForm">
         <input type="text" id="name" placeholder="Enter your name" required />
